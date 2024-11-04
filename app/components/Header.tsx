@@ -9,10 +9,17 @@ export default function Header() {
       padding: '1rem 2rem',
       background: '#000',
       color: '#fff',
-      fontFamily: 'FA, sans-serif', // Use the Font Awesome font family
+      fontFamily: 'FA, sans-serif', // Ensure you're using the correct font family
     }}>
       <div style={{ display: 'flex', flexDirection: 'column' }}>
-        <h1 style={{ color: 'red', fontSize: '1.5rem', margin: 0 }}>Scott Glorioso</h1>
+        <h1 style={{
+          color: 'red',
+          fontSize: '1.5rem',
+          margin: 0,
+          fontWeight: 900, // Set the font weight to 900 for the bolder version
+        }}>
+          Scott Glorioso
+        </h1>
         <p style={{ color: '#a8a8a8', margin: 0, fontSize: '0.875rem' }}>
           Singer, Songwriter, Sound Engineer, Producer
         </p>
