@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import "../globals.css";
 
 export default function Header() {
   return (
@@ -7,13 +8,13 @@ export default function Header() {
       justifyContent: 'space-between',
       alignItems: 'center',
       padding: '1rem 2rem',
-      background: '#000',
+      background: '#0A0A0A',
       color: '#fff',
-      fontFamily: 'FA, sans-serif', // Ensure you're using the correct font family
+      fontFamily: 'FA',
     }}>
       <div style={{ display: 'flex', flexDirection: 'column' }}>
         <h1 style={{
-          color: 'red',
+          color: '#EB4F47',
           fontSize: '1.5rem',
           margin: 0,
           fontWeight: 900, // Set the font weight to 900 for the bolder version
