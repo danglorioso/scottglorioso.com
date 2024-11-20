@@ -21,3 +21,51 @@ body {
   background: var(--background);
   font-family: 'FA'; /* Change this line to use the Font Awesome font */
 }
+
+
+/* General header container styling */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background: #0a0a0a;
+  color: #fff;
+  font-family: 'FA', sans-serif;
+}
+
+/* Logo section styling */
+.logo-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-title {
+  color: #ff3d3d;
+  font-size: 1.4rem;
+  margin: 0;
+  font-weight: 900;
+}
+
+.logo-subtitle {
+  color: #a8a8a8;
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+/* Navigation styling */
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 0.875rem;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #ff3d3d;
+}
