@@ -17,19 +17,19 @@ const Header = () => {
             width={48 * (2911 / 325)} // Aspect ratio based on original size
             className="rounded-lg cursor-pointer"
           />
-        <p className="font-sans text-red-700 text-base mt-1">
+        <p className="font-sans text-red-500 text-base mt-1">
           Singer, Songwriter, Sound Engineer, Producer
         </p>
         </Link>
       </div>
 
       {/* Navigation Links */}
-      <nav className="flex-grow flex justify-center space-x-8">
-        <Link href="/" className="text-white hover:text-gray-300 text-lg">Home</Link>
-        <Link href="all-songs" className="text-white hover:text-gray-300 text-lg">All Songs</Link>
-        <Link href="for-the-glory" className="text-white hover:text-gray-300 text-lg">For the Glory</Link>
-        <Link href="live" className="text-white hover:text-gray-300 text-lg">Live</Link>
-        <Link href="store" className="text-white hover:text-gray-300 text-lg">Store</Link>
+      <nav className="flex-grow flex justify-center space-x-10">
+        <Link href="/" className="text-white hover:text-red-500 text-lg transition-all duration-300 ease-in-out">Home</Link>
+        <Link href="all-songs" className="text-white hover:text-red-500 text-lg transition-all duration-300 ease-in-out">All Songs</Link>
+        <Link href="for-the-glory" className="text-white hover:text-red-500 text-lg transition-all duration-300 ease-in-out">For the Glory</Link>
+        <Link href="live" className="text-white hover:text-red-500 text-lg transition-all duration-300 ease-in-out">Live</Link>
+        <Link href="store" className="text-white hover:text-red-500 text-lg transition-all duration-300 ease-in-out">Store</Link>
       </nav>
 
       {/* Icons */}
