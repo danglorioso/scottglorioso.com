@@ -5,17 +5,17 @@ import Logo from '../../../public/logo.png';
 
 const Header = () => {
   return (
-    <header className="bg-black-900 rounded-lg mx-auto max-w-screen-xl px-6 py-4 flex items-center justify-between">
+    <header className="bg-black-900 rounded-lg mx-auto max-w-screen-xl px-6 py-4 flex items-center justify-between mt-4">
       {/* Logo and Text */}
       <div className="flex flex-col items-right"> 
         <Image
           src={Logo}
           alt="SG Logo"
           height={48} // Set height to 50px
-          width={50 * (2910 / 326)} // Aspect ratio based on original size
+          width={48 * (2911 / 325)} // Aspect ratio based on original size
           className="rounded-lg"
         />
-        <p className="font-sans text-red-700 text-base px-4 -mt-2">
+        <p className="font-sans text-red-700 text-base mt-1">
           Singer, Songwriter, Sound Engineer, Producer
         </p>
       </div>
@@ -31,10 +31,10 @@ const Header = () => {
 
       {/* Icons */}
       <div className="flex items-center space-x-4">
-        <a href="#" className="text-white hover:text-gray-300 text-2xl">
+        <a href="https://music.apple.com/us/artist/scott-glorioso/1637244084" target="_blank" className="text-white hover:text-gray-300 text-2xl">
           <FaApple />
         </a>
-        <a href="#" className="text-white hover:text-gray-300 text-2xl">
+        <a href="https://open.spotify.com/artist/2r4EbUh8eNVrjHb4KAS5rp?si=yvBkF0F4SuymbAPO4VSClw" target="_blank" className="text-white hover:text-gray-300 text-2xl">
           <FaSpotify />
         </a>
       </div>
