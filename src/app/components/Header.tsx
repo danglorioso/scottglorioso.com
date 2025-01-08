@@ -5,7 +5,7 @@ import Logo from '../../../public/logo.png';
 
 const Header = () => {
   return (
-    <header className="bg-zinc-900 rounded-lg mx-auto max-w-screen-xl px-6 py-4 flex items-center justify-between">
+    <header className="bg-black-900 rounded-lg mx-auto max-w-screen-xl px-6 py-4 flex items-center justify-between">
       {/* Logo and Text */}
       <div className="flex flex-col items-right"> 
         <Image
