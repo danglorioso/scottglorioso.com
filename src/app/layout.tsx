@@ -24,14 +24,23 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (      
+  return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        >          
-        <Header></Header>
-        {children}
-        <Footer></Footer>
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
+      >
+        {/* Header */}
+        <div className="flex-shrink-0">
+          <Header />
+        </div>
+
+        {/* Main Content */}
+        <main className="flex-grow">{children}</main>
+
+        {/* Footer */}
+        <div className="flex-shrink-0">
+          <Footer />
+        </div>
       </body>
     </html>
   );
