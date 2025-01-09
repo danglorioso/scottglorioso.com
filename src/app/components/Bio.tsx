@@ -5,22 +5,32 @@ import Profile from '../../../public/images/profile.png';
 
 const Bio = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center p-8 max-w-full w-11/12 rounded-lg bg-gray-900">
-        <Image
-            src={Profile}
-            alt="SG Profile"
-            height={48} // Set height to 50px
-            width={48 * (2911 / 325)} // Aspect ratio based on original size
-            className="rounded-full object-cover drop-shadow-[0_0_10px_rgba(255,255,255,0.6)]"
-        />
-        <h1 className="font-sans text-red-500 text-xl md:text-3xl ml-4">
-            Scott Glorioso
-        </h1>
+    <section className="flex flex-col md:flex-row items-center bg-zinc-900 p-8 mt-14 rounded-xl shadow-lg max-w-screen-lg mx-auto">
+        {/* Image Section */}
+        <div className="w-full md:w-1/3 flex-shrink-0 mb-6 md:mb-0">
+            <Image
+                src={Profile}
+                alt="Profile"
+                width={300}
+                height={300}
+                className="rounded-full object-cover mx-auto"
+            />
+        </div>
 
-        <p className="font-sans text-red-500 text-base mt-1">
-            Singer, Songwriter, Sound Engineer, Producer
-        </p>
-    </div>
+        {/* Text Section */}
+        <div className="w-full md:w-2/3 md:pl-8">
+            <h2 className="text-5xl font-bold text-red-500 mb-4">Scott Glorioso</h2>
+            <p className="text-gray-400 mb-4 leading-relaxed">
+                Scott has been a music lover all of his life. He loves well produced, catchy rock and pop. Scott is an experienced songwriter, producer, recording engineer and artist in his own right. He has a back catalog of over 150 original pop/rock songs that he has produced and recorded in his studio. He also does recording and production work for several other area musicians and projects.
+            </p>
+            <a
+                href="#"
+                className="text-zinc-200 bg-red-500 hover:bg-red-600 px-6 py-2 rounded-md text-lg font-medium transition duration-300 mt-5"
+            >
+                Learn More
+            </a>
+        </div>
+    </section>
   );
 };
 
