@@ -6,7 +6,7 @@ import StreamOn from './StreamOn';
 
 const Bio = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center bg-neutral-900 outline outline-neutral-800 p-8 mt-14 rounded-xl shadow-lg max-w-screen-xl mx-auto">
+    <section className="flex flex-col md:flex-row items-center bg-neutral-900 outline outline-neutral-800 p-10 mt-14 rounded-xl shadow-lg max-w-screen-xl mx-auto">
         {/* Image Section */}
         <div className="w-full md:w-1/3 flex-shrink-0 mb-6 md:mb-0">
             <Image
