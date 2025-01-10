@@ -201,7 +201,7 @@ Our hearts collided, now it’s decided`,
 };
 
 // Generate metadata dynamically
-export async function generateMetadata({ params }: { params: { songName: string } }): Promise<Metadata> {
+export function generateMetadata({ params }: { params: { songName: string } }): Metadata {
   const song = songs[params.songName];
   if (!song) return { title: "Song Not Found" };
 
@@ -217,12 +217,11 @@ export async function generateStaticParams() {
 }
 
 // Fetch the song data dynamically
-export default async function SongNamePage({ params }: { params: { songName: string } }) {
-  // Ensure you await the params if they are dynamically fetched
+export default function SongNamePage({ params }: { params: { songName: string } }) {
   const song = songs[params.songName];
 
   if (!song) {
-    notFound(); // Trigger Next.js's 404 page if no song is found
+    notFound(); // Trigger 404
   }
 
   return <SongPage song={song} />;
