@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import SongPage from "../components/SongPage";
 import { FaApple, FaSpotify, FaAmazon, FaYoutube } from "react-icons/fa";
 import { IconType } from "react-icons";
-import { notFound } from "next/navigation"; // Import the `notFound` function
+import { notFound } from "next/navigation";
 
 // Define the songs object
 const songs: Record<
@@ -117,8 +117,7 @@ I am great
 Nothin’ makes me shake
 I am great
 Hard to be humble cause I’m great`,
-  },
-  "stay-united": {
+  }, "stay-united": {
     coverImage: "/album-covers/su.png",
     title: "Stay United",
     album: "Stay United - Single",
@@ -220,7 +219,7 @@ export default function SongNamePage({ params }: { params: { songName: string } 
   const song = songs[params.songName];
 
   if (!song) {
-    notFound(); // Trigger Next.js's 404 page
+    notFound();
   }
 
   return <SongPage song={song} />;
