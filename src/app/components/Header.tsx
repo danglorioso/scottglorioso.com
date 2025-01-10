@@ -5,7 +5,7 @@ import LogoTagline from './LogoTagline';
 
 const Header = () => {
   return (
-    <header className="bg-black rounded-lg mx-auto max-w-screen-xl px-6 py-4 flex items-center justify-between mt-4">
+    <header className="bg-black rounded-lg mx-auto max-w-screen-xl px-6 py-4 flex items-center justify-between mt-2">
       {/* Logo and Tagline */}
       <div className="mt-4 cursor-pointer">
         <LogoTagline />

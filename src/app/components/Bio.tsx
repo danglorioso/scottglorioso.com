@@ -19,7 +19,7 @@ const Bio = () => {
         </div>
 
         {/* Text Section */}
-        <div className="w-full md:w-2/3 md:pl-8 flex flex-col justify-center">
+        <div className="w-full md:w-2/3 md:pl-8 flex flex-col">
             <h2 className="text-5xl font-bold text-red-500 mb-4">Scott Glorioso</h2>
             <p className="text-gray-400 mb-6 leading-relaxed">
                 Scott has been a music lover all of his life. He loves well produced, catchy rock and pop. Scott is an experienced songwriter, producer, recording engineer and artist in his own right. He has a back catalog of over 150 original pop/rock songs that he has produced and recorded in his studio. He also does recording and production work for several other area musicians and projects.
