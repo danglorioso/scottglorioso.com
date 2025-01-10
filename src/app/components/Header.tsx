@@ -22,10 +22,10 @@ const Header = () => {
 
       {/* Icons */}
       <div className="flex items-center space-x-4">
-        <a href="https://music.apple.com/us/artist/scott-glorioso/1637244084" target="_blank" className="text-white hover:text-gray-300 hover:scale-110 text-3xl duration-300 mr-1">
+        <a href="https://music.apple.com/us/artist/scott-glorioso/1637244084" target="_blank" className="text-white hover:text-gray-400 hover:scale-110 text-3xl duration-300 mr-1">
           <FaApple />
         </a>
-        <a href="https://open.spotify.com/artist/2r4EbUh8eNVrjHb4KAS5rp?si=yvBkF0F4SuymbAPO4VSClw" target="_blank" className="text-white hover:text-gray-300 hover:scale-110 duration-300 text-3xl">
+        <a href="https://open.spotify.com/artist/2r4EbUh8eNVrjHb4KAS5rp?si=yvBkF0F4SuymbAPO4VSClw" target="_blank" className="text-white hover:text-gray-400 hover:scale-110 duration-300 text-3xl">
           <FaSpotify />
         </a>
       </div>
