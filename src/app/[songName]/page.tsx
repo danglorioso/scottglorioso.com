@@ -117,7 +117,8 @@ I am great
 Nothin’ makes me shake
 I am great
 Hard to be humble cause I’m great`,
-  }, "stay-united": {
+  },
+  "stay-united": {
     coverImage: "/album-covers/su.png",
     title: "Stay United",
     album: "Stay United - Single",
@@ -210,16 +211,18 @@ export async function generateMetadata({ params }: { params: { songName: string 
   };
 }
 
+// Fix the problem with awaiting params
 export async function generateStaticParams() {
   return Object.keys(songs).map((songName) => ({ songName }));
 }
 
 // Fetch the song data dynamically
-export default function SongNamePage({ params }: { params: { songName: string } }) {
+export default async function SongNamePage({ params }: { params: { songName: string } }) {
+  // Ensure you await the params if they are dynamically fetched
   const song = songs[params.songName];
 
   if (!song) {
-    notFound();
+    notFound(); // Trigger Next.js's 404 page if no song is found
   }
 
   return <SongPage song={song} />;
