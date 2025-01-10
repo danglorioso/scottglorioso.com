@@ -7,7 +7,7 @@ const LogoTagline = () => {
   return (
     <Link href="/" passHref>
 
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center hover:scale-95 duration-300">
       <Image
         src={Logo}
         alt="SG Logo"
