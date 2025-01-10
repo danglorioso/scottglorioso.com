@@ -20,7 +20,7 @@ const StreamingLinks = () => {
     },
     {
       name: 'YouTube Music',
-      url: 'https://www.youtube.com/channel/UC5CUlqmYWmlnOLFNj1jUoYA',
+      url: 'https://music.youtube.com/channel/UCkqGZJSTGraAMd_mRRWKS_w',
       icon: <FaYoutube />,
     },
   ];
