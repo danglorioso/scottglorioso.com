@@ -94,7 +94,7 @@ const SongPage: React.FC<SongPageProps> = ({ song }) => {
       {/* Credits */}
       <section className="mt-12">
         <h2 className="text-2xl font-semibold text-red-500 mb-4">Credits</h2>
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-4 text-gray-300">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-gray-300">
           {credits.map((credit, index) => (
             <div key={index} className="flex flex-col">
               <span className="font-medium text-gray-400">{credit.role}:</span>
@@ -103,7 +103,6 @@ const SongPage: React.FC<SongPageProps> = ({ song }) => {
           ))}
         </div>
       </section>
-
 
       {/* Lyrics */}
       <section className="mt-12">
