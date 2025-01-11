@@ -59,10 +59,14 @@ const SongPage: React.FC<SongPageProps> = ({ song }) => {
           </audio>
 
           {/* Release Date and Copyright */}
-          <p className="mt-6 text-sm text-gray-500">
-            Released: {releaseDate}
-          </p>
-          <p className="text-sm text-gray-500">{copyright}</p>
+          <div className="mt-6">
+            {releaseDate && (
+              <p className="mt-6 text-sm text-gray-500">
+                Released: {releaseDate}
+              </p>
+            )}
+            <p className="text-sm text-gray-500">{copyright}</p>
+          </div>
         </div>
       </div>
 
