@@ -200,9 +200,11 @@ Our hearts collided, now it’s decided`,
   },
 };
 
+
 // Generate metadata dynamically
-export function generateMetadata({ params }: { params: { songName: string } }): Metadata {
-  const song = songs[params.songName];
+export async function generateMetadata({ params }: { params: { songName: string } }): Promise<Metadata> {
+  const songName = await params.songName; // Ensure params are awaited
+  const song = songs[songName];
   if (!song) return { title: "Song Not Found" };
 
   return {
@@ -211,17 +213,17 @@ export function generateMetadata({ params }: { params: { songName: string } }): 
   };
 }
 
-// Fix the problem with awaiting params
 export async function generateStaticParams() {
   return Object.keys(songs).map((songName) => ({ songName }));
 }
 
-// Fetch the song data dynamically
-export default function SongNamePage({ params }: { params: { songName: string } }) {
-  const song = songs[params.songName];
+// Main component for the song page
+export default async function SongNamePage({ params }: { params: { songName: string } }) {
+  const songName = await params.songName; // Await params
+  const song = songs[songName];
 
   if (!song) {
-    notFound(); // Trigger 404
+    notFound(); // Trigger Next.js's 404 page if no song is found
   }
 
   return <SongPage song={song} />;

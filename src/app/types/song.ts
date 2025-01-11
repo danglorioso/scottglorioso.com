@@ -19,7 +19,7 @@ export interface Song {
   audioFile: string;
   releaseDate: string;
   copyright: string;
-  streamingLinks: StreamingLink[]; // StreamingLink now expects IconType for icon
+  streamingLinks: StreamingLink[];
   credits: Credit[];
   lyrics: string;
 }
