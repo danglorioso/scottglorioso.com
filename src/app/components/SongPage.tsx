@@ -1,38 +1,15 @@
 import React from "react";
 import Image from "next/image";
-import { IconType } from "react-icons";
+import { Song } from "../types/song";
 
-// Define the prop type
+// Define the prop type for the SongPage component
 interface SongPageProps {
   song: Song;
 }
 
-// types/song.ts
-export interface StreamingLink {
-  name: string;
-  url: string;
-  icon: IconType;
-}
-
-export interface Credit {
-  role: string;
-  name: string;
-}
-
-export interface Song {
-  coverImage: string;
-  title: string;
-  album: string;
-  artist: string;
-  audioFile: string;
-  releaseDate: string;
-  copyright: string;
-  streamingLinks: StreamingLink[];
-  credits: Credit[];
-  lyrics: string;
-}
-
+// Main component for the song page
 const SongPage: React.FC<SongPageProps> = ({ song }) => {
+  // Destructure song object (import props)
   const {
     coverImage,
     title,
@@ -47,8 +24,10 @@ const SongPage: React.FC<SongPageProps> = ({ song }) => {
 
   return (
     <div className="bg-black text-white px-8 py-12 max-w-screen-lg mx-auto">
+      
       {/* Top Section */}
       <div className="flex flex-col md:flex-row items-start gap-8">
+
         {/* Album Cover */}
         <div className="w-full md:w-1/3">
           <Image
