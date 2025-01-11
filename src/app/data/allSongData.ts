@@ -925,6 +925,8 @@ Got what I deserved`,
     credits: [
       { role: "Engineer & Producer", name: "Scott Glorioso" },
       { role: "Performer", name: "Scott Glorioso" },
+      { role: "Music", name: "Scott Glorioso" },
+      { role: "Lyrics", name: "Jarl Salmela" }
     ],
     lyrics: `[Verse 1]
 Come along for good times today
