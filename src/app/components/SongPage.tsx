@@ -26,7 +26,7 @@ const SongPage: React.FC<SongPageProps> = ({ song }) => {
     <div className="bg-black text-white px-8 py-12 max-w-screen-lg mx-auto">
       
       {/* Top Section */}
-      <div className="flex flex-col md:flex-row items-start gap-8">
+      <div className="flex flex-col md:flex-row items-center gap-8">
 
         {/* Album Cover */}
         <div className="w-full md:w-1/3">
@@ -72,10 +72,10 @@ const SongPage: React.FC<SongPageProps> = ({ song }) => {
 
       {/* Streaming Links */}
       <section className="mt-12">
-        <h2 className="text-2xl font-semibold text-red-500 mb-4">
+        <h2 className="text-2xl font-semibold text-red-500 mb-4 text-center">
           Stream On
         </h2>
-        <div className="flex gap-4 flex-wrap">
+        <div className="flex justify-center gap-4 flex-wrap">
           {streamingLinks.map((platform) => (
             <a
               key={platform.name}
