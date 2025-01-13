@@ -1,7 +1,8 @@
 import { FaApple, FaSpotify, FaAmazon, FaYoutube } from "react-icons/fa";
 import { Song } from "../types/song";
 
-// Define the songs object
+// Define the obeject that stores all song data, which has strings of song
+// titles as keys and Song objects as values
 const allSongData: Record<string, Song> = {
   "its-all-about-me": {
     coverImage: "/album-covers/iaam.png",
