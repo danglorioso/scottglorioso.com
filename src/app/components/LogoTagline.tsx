@@ -11,9 +11,10 @@ const LogoTagline = () => {
       <Image
         src={Logo}
         alt="SG Logo"
-        height={48} // Set height to 50px
-        width={48 * (2911 / 325)} // Aspect ratio based on original size
+        height={48}
+        width={48 * (2911 / 325)}
         className="rounded-lg cursor-pointer"
+        priority
       />
       <p className="font-sans text-red-500 text-base mt-1 cursor-pointer">
         Singer, Songwriter, Sound Engineer, Producer
