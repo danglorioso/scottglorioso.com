@@ -4,8 +4,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="text-gray-400 text-center p-6 w-full bg-neutral-900 border-t border-neutral-800">
-      <p className="mb-2">
+    <footer className="text-gray-400 text-center p-4 w-full bg-neutral-900 border-t border-neutral-800">
+      <p className="mb-2 leading-tight">
         Website created by{" "}
         <a
           href="https://danglorioso.com"
@@ -17,7 +17,7 @@ const Footer = () => {
         </a>
         .
       </p>
-      <p className="text-sm text-neutral-500">
+      <p className="text-sm text-neutral-500 leading-tight">
         Copyright © {new Date().getFullYear()}. All rights reserved.
       </p>
     </footer>
