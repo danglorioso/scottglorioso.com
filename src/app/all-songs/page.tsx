@@ -1,8 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-// import { Song } from "../types/song"; // Reuse the Song type
-import allSongData from "../data/allSongData"; // Import the song data
+import allSongData from "../data/allSongData";
 
 const AllSongs: React.FC = () => {
   return (

@@ -1,8 +1,8 @@
 import { FaApple, FaSpotify, FaAmazon, FaYoutube } from "react-icons/fa";
 import { Song } from "../types/song";
 
-// Define the obeject that stores all song data, which has strings of song
-// titles as keys and Song objects as values
+// Define the instance of the object that stores all song data, which has 
+// strings of song titles as keys and Song objects as values
 const allSongData: Record<string, Song> = {
   "its-all-about-me": {
     coverImage: "/album-covers/iaam.png",
@@ -1052,6 +1052,26 @@ But not for fools like you`,
       { role: "Engineer & Producer", name: "Scott Glorioso" },
       { role: "Writer & Performer", name: "Scott Glorioso" },
       { role: "Writer & Performer", name: "Jack Prost" },
+    ],
+    lyrics: ``,
+  },
+  "it-takes-a-lot": {
+    coverImage: "/album-covers/mkos.png",
+    title: "It Takes a Lot",
+    album: "My Kind of Success",
+    artist: "Scott Glorioso",
+    audioFile: "/audio/ital.mp3",
+    releaseDate: "",
+    copyright: "© 2025 Scott Glorioso",
+    streamingLinks: [
+      { name: "Apple Music", url: "", icon: FaApple },
+      { name: "Spotify", url: "", icon: FaSpotify },
+      { name: "Amazon Music", url: "", icon: FaAmazon },
+      { name: "YouTube Music", url: "", icon: FaYoutube },
+    ],
+    credits: [
+      { role: "Engineer & Producer", name: "Scott Glorioso" },
+      { role: "Writer & Performer", name: "Scott Glorioso" },
     ],
     lyrics: ``,
   },

@@ -30,10 +30,8 @@ export default async function SongNamePage(props: { params: Promise<{ songName: 
   const songName = await params.songName;
   const song = allSongData[songName];
 
-  if (!song) {
-    notFound(); // Use Next.JS 404 page is no song found
-  }
+  if (!song) { notFound(); }
 
-  // Render SongPage component with song's props
+  // Render SongPage component using song's props
   return <SongPage song={song} />;
 }
