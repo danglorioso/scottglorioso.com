@@ -1,17 +1,17 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import allAlbumData from '../data/allAlbumData'; // Assuming this is the correct path
+import allAlbumData from '../data/allAlbumData';
 import { Album } from '../types/album';
 
 const LatestAlbums: React.FC = () => {
-  // Fetch the latest 4 albums
+  // Fetch the latest 4 albums (dynamic)
   const albums = Object.values(allAlbumData)
     .sort((a, b) => new Date(b.releaseDate).getTime() - new Date(a.releaseDate).getTime())
     .slice(0, 4);
 
   return (
-    <section className="bg-neutral-900 outline outline-neutral-800 p-10 mt-14 rounded-xl shadow-lg max-w-screen-xl mx-auto">
+    <section className="bg-neutral-900 outline outline-neutral-800 p-10 mt-14 mb-14 rounded-xl shadow-lg max-w-screen-xl mx-auto">
       <h2 className="text-4xl font-bold text-red-500 mb-6 text-center">Latest Albums</h2>
       <div className="flex flex-col md:flex-row gap-8">
         {albums.map((album: Album) => (

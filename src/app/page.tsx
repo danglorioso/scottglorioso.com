@@ -1,5 +1,5 @@
 import Bio from './components/Bio';
-import LatestAlbums from './components/latestAlbums';
+import LatestAlbums from './components/LatestAlbums';
 
 export default function Home() {
   return (
