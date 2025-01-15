@@ -15,7 +15,8 @@ const Header = () => {
       <nav className="flex-grow flex justify-center space-x-10">
         <Link href="/" className="text-white hover:text-red-500 text-lg transition-all duration-300 ease-in-out">Home</Link>
         <Link href="/all-songs" className="text-white hover:text-red-500 text-lg transition-all duration-300 ease-in-out">All Songs</Link>
-        <Link href="/for-the-glory" className="text-white hover:text-red-500 text-lg transition-all duration-300 ease-in-out">For the Glory</Link>
+        <Link href="/albums/for-the-glory" className="text-white hover:text-red-500 text-lg transition-all duration-300 ease-in-out">For the Glory</Link>
+        <Link href="/albums/my-kind-of-success" className="text-white hover:text-red-500 text-lg transition-all duration-300 ease-in-out">My Kind of Success</Link>
         <Link href="/live" className="text-white hover:text-red-500 text-lg transition-all duration-300 ease-in-out">Live</Link>
         <Link href="/store" className="text-white hover:text-red-500 text-lg transition-all duration-300 ease-in-out">Store</Link>
       </nav>
