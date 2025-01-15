@@ -1,4 +1,5 @@
 import { Album } from '../types/album';
+import { FaApple, FaSpotify, FaItunes, FaAmazon, FaYoutube } from "react-icons/fa";
 
 // Define the instance of the Album type object that contains the data for each album
 const allAlbumData: Record<string, Album> = {
@@ -22,6 +23,13 @@ const allAlbumData: Record<string, Album> = {
         { id: "got-what-i-deserved", title: 'Got What I Deserved' },
         { id: "thanks-for-fools", title: 'Thanks for Fools' },
       ],
+        streamingLinks: [
+        { name: "Apple Music", url: "https://music.apple.com/us/album/for-the-glory/1657880556", icon: FaApple },
+        { name: "Spotify", url: "https://open.spotify.com/album/0HHVF1ncC8oKOgtxYm6yLi?si=0B4qqB4rTFyu9OMS2TJJgQ", icon: FaSpotify },
+        { name: "iTunes", url: "https://music.apple.com/us/album/for-the-glory/1657880556", icon: FaItunes },
+        { name: "Amazon Music", url: "https://music.amazon.com/albums/B0BNWH1DF4", icon: FaAmazon },
+        { name: "YouTube Music", url: "https://www.youtube.com/playlist?list=OLAK5uy_mL1K_bK2bQM0zGcywDEg3_WtjRu06DfVY", icon: FaYoutube },
+        ],
     },
     "my-kind-of-success": {
       id: 'my-kind-of-success',
@@ -42,6 +50,13 @@ const allAlbumData: Record<string, Album> = {
         { id: "anothers-way", title: 'Another\'s Way' },
         { id: "queen-requiem", title: 'Queen Requiem' },
       ],
+      streamingLinks: [
+        { name: "Apple Music", url: "", icon: FaApple },
+        { name: "Spotify", url: "", icon: FaSpotify },
+        { name: "iTunes", url: "", icon: FaItunes },
+        { name: "Amazon Music", url: "", icon: FaAmazon },
+        { name: "YouTube Music", url: "", icon: FaYoutube },
+        ],
     },
 };
 

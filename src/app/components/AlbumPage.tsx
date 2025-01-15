@@ -9,6 +9,8 @@ interface AlbumPageProps {
 }
 
 const AlbumPage: React.FC<AlbumPageProps> = ({ album }) => {
+    // Destrucutre the album object (import props)
+    
   return (
     <div className="bg-black text-white px-8 py-12 max-w-screen-xl mx-auto min-h-screen">
       <div className="flex flex-col md:flex-row gap-12 items-start">
@@ -16,12 +18,28 @@ const AlbumPage: React.FC<AlbumPageProps> = ({ album }) => {
         {/* Album Cover */}
         <div className="flex-shrink-0 w-full md:w-1/3">
           <Image
-            src={album.coverImage}
-            alt={`${album.title} album cover`}
-            width={400}
-            height={400}
-            className="w-full rounded-lg shadow-lg"
+          src={album.coverImage}
+          alt={`${album.title} album cover`}
+          width={400}
+          height={400}
+          className="w-full rounded-lg shadow-lg"
           />
+
+          {/* Streaming Links */}
+          <div className="mt-6 flex flex-wrap items-center gap-4">
+            {album.streamingLinks.map((link) => (
+                <a
+                key={link.name}
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 bg-neutral-800 hover:bg-neutral-700 transition p-4 rounded-lg hover:scale-105"
+                >
+                <link.icon className="text-3xl text-red-500" />
+                <span className="text-gray-300 font-medium">{link.name}</span>
+                </a>
+            ))}
+          </div>
         </div>
 
         {/* Album Details */}

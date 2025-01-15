@@ -1,5 +1,5 @@
-import { FaApple, FaSpotify, FaAmazon, FaYoutube } from "react-icons/fa";
 import { Song } from "../types/song";
+import { FaApple, FaSpotify, FaAmazon, FaYoutube } from "react-icons/fa";
 
 // Define the instance of the object that stores all song data, which has 
 // strings of song titles as keys and Song objects as values
