@@ -3,6 +3,42 @@ import { FaApple, FaSpotify, FaItunes, FaAmazon, FaYoutube } from "react-icons/f
 
 // Define the instance of the Album type object that contains the data for each album
 const allAlbumData: Record<string, Album> = {
+    "its-all-about-me": {
+        id: 'its-all-about-me',
+        title: 'It\'s All About Me - Single',
+        artist: 'Scott Glorioso',
+        releaseDate: 'January 17, 2020',
+        description: 'A collection of inspiring tracks.',
+        coverImage: '/album-covers/iaam.png',
+        tracks: [
+          { id: "its-all-about-me", title: 'It\'s All About Me' },
+        ],
+          streamingLinks: [
+          { name: "Apple Music", url: "https://music.apple.com/us/album/its-all-about-me/1637244261?i=1637244262", icon: FaApple },
+          { name: "Spotify", url: "https://open.spotify.com/album/0DyNzLXaA6oUZCtbxnzRnj?si=XAJJ4LjfRxSJbJGJDK2JzA", icon: FaSpotify },
+          { name: "iTunes", url: "https://music.apple.com/us/album/its-all-about-me-single/1637244261", icon: FaItunes },
+          { name: "Amazon Music", url: "https://amazon.com/music/player/albums/B0B7B9N5QD?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_ljANVPV8SFV8IOf0OrytQbAeZ", icon: FaAmazon },
+          { name: "YouTube Music", url: "https://www.youtube.com/watch?v=P_sV5Ss2ZM0", icon: FaYoutube },
+          ],
+      },
+      "stay-united": {
+        id: 'stay-united',
+        title: 'Stay United - Single',
+        artist: 'Scott Glorioso',
+        releaseDate: 'January 6, 2021',
+        description: 'A collection of inspiring tracks.',
+        coverImage: '/album-covers/su.png',
+        tracks: [
+          { id: "stay-united", title: 'Stay United' },
+        ],
+          streamingLinks: [
+          { name: "Apple Music", url: "https://music.apple.com/us/album/stay-united-single/1638913902", icon: FaApple },
+          { name: "Spotify", url: "https://open.spotify.com/album/1fpINs3ffUJw95r6iPqWt8", icon: FaSpotify },
+          { name: "iTunes", url: "https://music.apple.com/us/album/stay-united-single/1638913902", icon: FaItunes },
+          { name: "Amazon Music", url: "https://amazon.com/music/player/albums/B0B8FTJH1B?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_Bk0hbhIcwBrxTdF2i5QUvmUYK", icon: FaAmazon },
+          { name: "YouTube Music", url: "https://www.youtube.com/watch?v=QzaXwwCCEb8", icon: FaYoutube },
+          ],
+      },
     "for-the-glory": {
       id: 'for-the-glory',
       title: 'For the Glory',
