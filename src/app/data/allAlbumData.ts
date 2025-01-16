@@ -78,7 +78,7 @@ const allAlbumData: Record<string, Album> = {
         { id: "music-in-me", title: 'Music in Me' },
         { id: "all-i-see", title: 'All I See' },
         { id: "my-kind-of-success", title: 'My Kind of Success' },
-        { id: "sunshine-shining", title: 'Sunshine Rising (Octavate)' },
+        { id: "sunshine-rising", title: 'Sunshine Rising (Octavate)' },
         { id: "it-takes-a-lot", title: 'It Takes a Lot' },
         { id: "out-on-the-mountain", title: 'Out on the Mountain' },
         { id: "once-in-a-lifetime", title: 'Once in a Lifetime' },
