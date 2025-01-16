@@ -980,7 +980,7 @@ But not for fools like you`,
     album: "My Kind of Success",
     artist: "Scott Glorioso",
     audioFile: "/audio/music-in-me.mp3",
-    releaseDate: "",
+    releaseDate: "September 26, 2002",
     copyright: "© 2025 Scott Glorioso",
     streamingLinks: [
       { name: "Apple Music", url: "", icon: FaApple },
@@ -1000,7 +1000,7 @@ But not for fools like you`,
     album: "My Kind of Success",
     artist: "Scott Glorioso",
     audioFile: "/audio/all-i-see.mp3",
-    releaseDate: "",
+    releaseDate: "February 12, 1996",
     copyright: "© 2025 Scott Glorioso",
     streamingLinks: [
       { name: "Apple Music", url: "", icon: FaApple },
@@ -1012,7 +1012,67 @@ But not for fools like you`,
       { role: "Engineer & Producer", name: "Scott Glorioso" },
       { role: "Writer & Performer", name: "Scott Glorioso" },
     ],
-    lyrics: ``,
+    lyrics: `[Verse 1]
+Girl, you're thinking about it
+You know you're thinking about it
+You wanna do what's right for you and me
+And girl you're looking inside it
+You're gonna be behind it
+You're searching for more freedom in your mind
+And girl, you've analyzed it
+You've almost paralyzed it
+Now you've got to get on with the show
+
+[Chorus]
+And all I see 
+Is you and me
+Driving through this life together
+It's A-B-C
+It's 1-2-3
+You and me were made to be together
+
+[Verse 2]
+Sometimes you drive me crazy
+You keep telling me I'm lazy
+But I know where we stand without thinking twice
+Sometimes I drive you crazy
+My detail is way too hazy
+You've got to have it all out in front of you
+Sometimes we get too excited
+We push buttons to disguise it
+Intentions never meant to go so far
+
+[Chorus]
+And all I see 
+Is you and me
+Riding on this flight together
+Fantasy
+Into reality 
+You and me were made to be together
+
+[Bridge]
+Whoever said you must have your goals
+Well they didn't mean
+For every single thing
+Everyday
+Sometimes you've got to kick back
+Just let life flow
+
+[Chorus]
+And all I see 
+Is you and me
+Living out our dreams together
+It's destiny
+And totality
+You and me were made to be together
+
+[Outro]
+And all I see
+Is you and me
+Driving through this life together
+Simple as A-B-C
+Easy as 1-2-3
+You and me were made to be forever`,
   },
   "my-kind-of-success": {
     coverImage: "/album-covers/mkos.png",
@@ -1020,7 +1080,7 @@ But not for fools like you`,
     album: "My Kind of Success",
     artist: "Scott Glorioso",
     audioFile: "/audio/mkos.mp3",
-    releaseDate: "",
+    releaseDate: "January 17, 1997",
     copyright: "© 2025 Scott Glorioso",
     streamingLinks: [
       { name: "Apple Music", url: "", icon: FaApple },
@@ -1032,14 +1092,69 @@ But not for fools like you`,
       { role: "Engineer & Producer", name: "Scott Glorioso" },
       { role: "Writer & Performer", name: "Scott Glorioso" },
     ],
-    lyrics: ``,
+    lyrics: `[Verse 1]
+I used to write a new song every day
+Easy to figure out what to say
+My mind poured out on to the page
+Youthful fear and doubt to fuel the rage
+Nobody wants to hear how great
+Everything around me is today
+An occasional gray cloud dissipates
+That’s about the extent of my rainy days
+
+[Chorus]
+My true measure of happiness
+My kind of success
+A true measure of happiness		
+Not confused by success
+
+[Verse 2]
+The peak of my happiness you bring
+But it leaves me only old songs to sing 	
+I wouldn’t dream of changing one thing
+Since the day you and I came to wear our rings
+
+[Chorus]
+My true measure of happiness
+My kind of success
+A true measure of happiness		
+Not confused by success
+
+[Break]
+And why does pain bring inspiration?	
+And why does it require confrontation?
+Feeling elation with stable relations
+Should be the source of prolific creation
+
+[Verse 3]
+Looking back on how I used to write
+It was always based on love unrequited
+It’s hard to (even) remember what that was like
+For what we have now I am delighted
+
+[Chorus]
+My true measure of happiness
+Stocks and bonds don't impress
+A new measure of respect		
+Not confused by success
+
+My true measure of happiness		
+My kind of success
+A true measure of happiness
+From inside, forget the rest
+
+[Chorus]
+My true measure of happiness		
+Not monetary success
+A new measure of respect
+It’s my kind of success`,
   },
-  "sunshine-shining": {
+  "sunshine-rising": {
     coverImage: "/album-covers/mkos.png",
-    title: "Sunshine Shining (Octavate)",
+    title: "Sunshine Rising (Octavate)",
     album: "My Kind of Success",
     artist: "Scott Glorioso",
-    audioFile: "/audio/sunshine-shining.mp3",
+    audioFile: "/audio/sunshine-rising.mp3",
     releaseDate: "",
     copyright: "© 2025 Scott Glorioso",
     streamingLinks: [
@@ -1052,12 +1167,56 @@ But not for fools like you`,
       { role: "Writer & Performer", name: "Jack Prost" },
       { role: "Engineer & Producer", name: "Scott Glorioso" },
       { role: "Lead Vocals", name: "Scott Glorioso" },
-      { role: "Guitar", name: "Jack Prost" },
+      { role: "Guitars", name: "Jack Prost" },
       { role: "Lead Bass", name: "Jack Prost" },
+      { role: "Keyboard", name: "Scott Glorioso" },
       { role: "Background Vocals", name: "Jack Prost" },
       { role: "Drums", name: "Tom DuPree III" },
     ],
-    lyrics: ``,
+    lyrics: `[Verse 1]
+Free
+My mind and body, my soul's alive
+Agree
+Sometimes it kicks into overdrive
+We're living in the minute
+In it just to win it
+She
+She never fails me, to blow my mind
+
+[Bridge] 
+You can help me turn this train around
+
+[Chorus]
+Sunshine rising
+Promise not to bank it away
+Sunshine setting
+I am not regretting today
+
+[Verse 2]
+You
+You've got the power of love inside
+It's true
+Sometimes it scares you to let it ride
+We're living in the minute,
+in it just to win it.
+Do
+Octavate everything you find
+ 
+[Bridge] 
+You can help us burn this terror down
+Oh yeah
+
+
+[Chorus]
+Sunshine rising
+Promise not to bank it away
+Sunshine setting
+I am not regretting today
+
+Sunshine rising
+Promise not to bank it away
+Sunshine setting
+I am not regretting today`,
   },
   "it-takes-a-lot": {
     coverImage: "/album-covers/mkos.png",
@@ -1065,7 +1224,7 @@ But not for fools like you`,
     album: "My Kind of Success",
     artist: "Scott Glorioso",
     audioFile: "/audio/ital.mp3",
-    releaseDate: "",
+    releaseDate: "June 2, 1993",
     copyright: "© 2025 Scott Glorioso",
     streamingLinks: [
       { name: "Apple Music", url: "", icon: FaApple },
@@ -1077,7 +1236,75 @@ But not for fools like you`,
       { role: "Engineer & Producer", name: "Scott Glorioso" },
       { role: "Writer & Performer", name: "Scott Glorioso" },
     ],
-    lyrics: ``,
+    lyrics: `[Verse 1]
+Never would I say
+"You've got to stay the same"
+Everything must change
+And go it's own way
+It's not always pleasant
+Nor predictable
+Sometimes it comes with pain
+That never goes away
+
+[Chorus]
+We've been through a lot
+It's not gonna stop
+We've been through a lot
+It ain't never gonna stop
+
+[Verse 2]
+No matter how we try 
+To figure out why
+It surprises our eyes
+And even makes us cry
+So go on live each day
+To the fullest in every way
+Don't let your passion ever fade
+And make the time to play
+
+[Chorus]
+Oh, it takes a lot
+To make it to the top
+Oh, it takes a lot
+To give it all you've got
+And it takes a lot
+To stay on top
+Oh, it takes a lot
+So give it your best shot
+And give it all you've got
+Aim straight for the top
+
+[Verse 3]
+You can't be simply satisfied 
+You must reach for the sky
+If you don't you'll fall behind
+And slowly you'll die
+Take a look at where you are
+And where you've been
+If the two are both the same
+Then pack up and start again
+
+[Chorus]
+We've been through a lot
+It's not gonna stop
+We've been through a lot
+It ain't never gonna stop
+
+And it takes a lot
+To make it to the top
+Oh, it takes a lot
+To give it all you've got
+
+We've been through a lot
+Going straight to the top
+And it takes a lot
+There's no pit stops
+We've driving to the top
+And it takes a lot
+
+[Outro]
+Never would I say
+"Forever stay the same"`,
   },
   "out-on-the-mountain": {
     coverImage: "/album-covers/mkos.png",
@@ -1085,7 +1312,7 @@ But not for fools like you`,
     album: "My Kind of Success",
     artist: "Scott Glorioso",
     audioFile: "/audio/ootm.mp3",
-    releaseDate: "",
+    releaseDate: "January 1, 1993",
     copyright: "© 2025 Scott Glorioso",
     streamingLinks: [
       { name: "Apple Music", url: "", icon: FaApple },
@@ -1097,7 +1324,56 @@ But not for fools like you`,
       { role: "Engineer & Producer", name: "Scott Glorioso" },
       { role: "Writer & Performer", name: "Scott Glorioso" },
     ],
-    lyrics: ``,
+    lyrics: `[Verse 1]
+Well it seems that I've fallen into a working class trap
+Once I was carefree, able to ignore the crap
+Now it feels like a dance on my own
+A slave to the email and the phone
+When will I get back
+To my favorite personal path
+
+[Chorus]
+Got to get out on the mountain
+High above the streets
+I've got to get out on the mountain
+Where it's just me I've got to please
+
+[Verse 2]
+Lately all my dreams have been put on hold
+In fact I can barely recall the way they go
+But it's odd that I don't feel behind
+An unfamiliar piece of mind
+And a longing for freshly fallen snow
+
+[Chorus]
+Got to get out on the mountain
+High above the trees
+I've got to get out on the mountain
+Where the air's cool bite and the frosty white
+Above-this-world views and bluer than blues
+Oh, out on the mountain
+The sky, the sun, and the breeze
+I've got to get out on the mountain
+Where it's just me I've got to please
+
+[Break]
+Sometimes in my sleep
+As I'm swishing between some trees
+All my dreams
+Return to me
+
+[Verse 3]
+Got to find a way to get away and avoid a working class trap
+Then I can be carefree, oblivious of the crap
+There's a freedom that I can't compare
+To a perfect day up there		
+I can't wait to get back to a day of making tracks
+
+[Chorus]
+I'm gonna get out on the mountain
+As soon as it can be
+I'm gonna get out on the mountain
+Where it's just me I've got to please`,
   },
   "once-in-a-lifetime": {
     coverImage: "/album-covers/mkos.png",
@@ -1105,7 +1381,7 @@ But not for fools like you`,
     album: "My Kind of Success",
     artist: "Scott Glorioso",
     audioFile: "/audio/oial.mp3",
-    releaseDate: "",
+    releaseDate: "July 1, 1999",
     copyright: "© 2025 Scott Glorioso",
     streamingLinks: [
       { name: "Apple Music", url: "", icon: FaApple },
@@ -1117,7 +1393,61 @@ But not for fools like you`,
       { role: "Engineer & Producer", name: "Scott Glorioso" },
       { role: "Writer & Performer", name: "Scott Glorioso" },
     ],
-    lyrics: ``,
+    lyrics: `[Verse 1]
+I can't believe no one ever wrote a song for
+You are the most beautiful woman I’ve 
+Seen your heart and it shines more brightly than
+Even the brightest ray of sun
+
+[Chorus]
+Once in a lifetime it happens
+To those fortunate ones
+Once a lifetime when it happens
+You’ve got to go for it all
+
+[Verse 2]
+The way I feel about you is so very 
+Finally we found our love and all it can
+Before too long we’ll be together as 
+One, eternally
+
+[Chorus]
+Once in a lifetime it happens
+To those fortunate ones
+Once a lifetime when it happens
+You’ve got to go for it all
+
+[Break]
+We’ve been friends for so long
+Without opportunity for more
+It’s like our former relationships 
+Were only practice for this love
+We’ve never experienced anything like this before
+No, not before
+But we both longed for it deep in our souls		
+And now the time is ours
+
+[Chorus]
+Once in a lifetime it happens
+To those fortunate ones
+Once a lifetime when it happens
+You’ve got to go for it all
+
+[Verse 3]
+I’m proud to be the first one to ever write a song for
+You deserve all the very finest of
+Things are great whenever we are together doing
+Whatever our synchronistic minds want to do
+
+[Chorus]
+Once in a lifetime it happens
+To those fortunate ones
+Once a lifetime when it happens
+You’ve got to go for it all
+And once in a lifetime it happens
+To those fortunate ones
+Once a lifetime when it happens
+You better go for it all`,
   },
   "no-fun-without-you": {
     coverImage: "/album-covers/mkos.png",
@@ -1125,7 +1455,7 @@ But not for fools like you`,
     album: "My Kind of Success",
     artist: "Scott Glorioso",
     audioFile: "/audio/nfwy.mp3",
-    releaseDate: "",
+    releaseDate: "August 7, 1997",
     copyright: "© 2025 Scott Glorioso",
     streamingLinks: [
       { name: "Apple Music", url: "", icon: FaApple },
@@ -1137,7 +1467,66 @@ But not for fools like you`,
       { role: "Engineer & Producer", name: "Scott Glorioso" },
       { role: "Writer & Performer", name: "Scott Glorioso" },
     ],
-    lyrics: ``,
+    lyrics: `[Verse 1]
+I could travel all over the world
+See all there is to see	
+Swim in life’s vast oceans
+Be the richest man in the land
+
+[Bridge]
+Go where free wind blows
+Be what I wanna be
+But it's
+
+[Chorus]
+No fun without you
+It’s not great in any way
+You’re the center of my universe
+And it’s no fun without you
+
+[Verse 2]
+When you’re not around
+I can’t even play
+Instead I pace the halls
+Waiting for you to return
+
+[Bridge]
+It’s pathetic, I know
+But it’s so true
+That it's
+
+[Chorus]
+No fun without you
+It’s not great in any way
+You’re the center of my universe
+And it’s no fun without you
+
+[Bridge]
+Solitude’s not for me
+Together is free
+
+[Verse 3]
+I don’t have to look too hard 		
+To know you’re just the same
+The love shines in your eyes
+You see me the very same way
+
+[Bridge]
+I live by your side
+In you I ‘ll confide
+That it's
+
+[Chorus]
+No fun without you
+It’s not great in any way
+You’re the center of my universe
+And it’s no fun without you
+
+And it's no fun without you
+It's not great in any way 
+We're the center of our universe
+And it's no fun without you
+And it's no fun without you`,
   },
   "anothers-way": {
     coverImage: "/album-covers/mkos.png",
@@ -1145,7 +1534,7 @@ But not for fools like you`,
     album: "My Kind of Success",
     artist: "Scott Glorioso",
     audioFile: "/audio/anothers-way.mp3",
-    releaseDate: "",
+    releaseDate: "October 20, 1994",
     copyright: "© 2025 Scott Glorioso",
     streamingLinks: [
       { name: "Apple Music", url: "", icon: FaApple },
@@ -1157,7 +1546,51 @@ But not for fools like you`,
       { role: "Engineer & Producer", name: "Scott Glorioso" },
       { role: "Writer & Performer", name: "Scott Glorioso" },
     ],
-    lyrics: ``,
+    lyrics: `[Verse 1]
+When I hear of religious strife
+Nations split and continue to fight
+So many die without even basic rights
+I wonder what it takes to justify
+
+[Chorus]
+All of the pain 		
+That surrounds us every day
+People filled with rage	
+Fighting eternal strain
+It's truly insane		
+Disrespect for the other's way
+
+[Verse 2]
+Days of peace are lessening
+Children's cries are deafening
+Life on Earth is shuttering
+I wonder what the future can possibly bring
+
+[Chorus]
+All of the pain
+Polarized shallow sight
+Any way could be right
+To explain the unknown
+Much too quick to criticize
+Another's theory of life
+
+[Break]
+Imagine times in history
+When the world was flat and not moving
+So much we know about everything
+Yet the meaning of life is still a mystery
+
+[Chorus]
+All of the pain
+That surrounds us every day
+People filled with rage
+And hate for another's way
+Wars between lives
+Thousands of years behind
+Separated by faith
+A divided human race
+So don't criticize
+Another's theory of life`,
   },
   "queen-requiem": {
     coverImage: "/album-covers/mkos.png",
@@ -1165,7 +1598,7 @@ But not for fools like you`,
     album: "My Kind of Success",
     artist: "Scott Glorioso",
     audioFile: "/audio/queen-requiem.mp3",
-    releaseDate: "",
+    releaseDate: "June 1992",
     copyright: "© 2025 Scott Glorioso",
     streamingLinks: [
       { name: "Apple Music", url: "", icon: FaApple },
@@ -1177,7 +1610,64 @@ But not for fools like you`,
       { role: "Engineer & Producer", name: "Scott Glorioso" },
       { role: "Writer & Performer", name: "Scott Glorioso" },
     ],
-    lyrics: ``,
+    lyrics: `[Intro]
+The Queen in dead
+The King of Queen
+The Queen is gone
+The Killer Queen
+Though he's gone, he cannot be forgotten
+
+[Verse 1]
+He started out a big dream kid
+His friends did not see things the way he did
+Then one day he said goodbye
+The time had come to reach for the sky
+
+[Chorus]
+The Queen is dead
+The King of Queen
+The Queen is gone
+The Killer Queen
+
+[Verse 2]
+Before he knew it, he became a superstar
+The world stood up every time he took charge
+The words rang out: "We Will Rock You"
+The Champions of the World through and through
+
+[Chorus]
+The Queen is dead
+The King of Queen
+The Queen is gone
+The Killer Queen
+Though he's gone, he cannot be forgotten
+
+[Break]
+Against the odds of maintain sexuality
+His voice was heard for peace and decency
+He was larger than life in the land of royalty
+He lived for the show and all its pageantry
+
+He carried a deep, dark secret for nearly seven years
+A deadly disease ignored for homophobic fears
+Not even his feline friends could suspect this demise
+To a legendary hero with proportionate style
+
+And though he's gone, he cannot be forgotten
+
+[Verse 3]
+Without their king, they go on right in stride
+Make no attempt to replace, don't even try
+Contribute to the world the popularity
+To propagate a cure for society
+
+[Chorus]
+The Queen's not dead
+The Queen's alive
+In heart and song
+The show must go on
+
+Though his body's gone, his spirit still lives on`,
   },
 };
 
