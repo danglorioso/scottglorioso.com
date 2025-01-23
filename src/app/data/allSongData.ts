@@ -992,7 +992,88 @@ But not for fools like you`,
       { role: "Engineer & Producer", name: "Scott Glorioso" },
       { role: "Writer & Performer", name: "Scott Glorioso" },
     ],
-    lyrics: ``,
+    lyrics: `[Verse 1]
+Been running my life in overdrive
+Cruising right down the center line
+Something’s been gone that once was there
+Having too much fun, I haven’t cared
+
+[Bridge]
+Oh, how it goes
+By without even knowing
+No choice of key or tempo
+It just goes
+
+[Verse 2]
+Distractions all around It don’t come easy
+Writers block makes me queasy
+Nothing I can do but just sit down
+Pick up my guitar and go to town
+
+[Bridge]
+Oh, how it flows
+Every chord is my own
+From one note to coda
+It just flows
+
+[Chorus]
+I’ve still got some music in me	
+It’s right here, plain to see
+I’ve still got the music in me
+
+[Break]
+Once I start to feel it in my bones
+There’s no stopping this mighty tone
+Then it starts dancing around my brain
+There’s no telling what I might say
+
+[Verse 3]
+Don’t mind cliché, that’s ok
+Got to get it out anyway
+All I’ve been doing is thinking it over
+Got to get on with the deal closer
+
+[Bridge]
+Oh, how it goes
+By without even knowing
+No choice of key or tempo
+It just goes
+
+[Chorus]
+I’ve still got some music in me	
+It’s right here, plain to see
+I’ve still got the music in me
+
+[Verse 4]
+Got to be clever, quick and catchy
+Can’t be too explicit, better sketchy
+All the best hooks, keeping it simple
+Not too cute, a new record 
+
+[Bridge]
+As far as pop goes
+It's got to rock 'n' roll
+It could be fast or slow
+Strokes my ego
+
+[Chorus]
+I’ve still got some music in me	
+It’s right here, plain to see
+I’ve still got the music in me
+I’ve still got some music in me	
+It's right here, can't you see
+I’ve still got the music in me
+
+[Outro]
+Running my life in overdrive
+Cruising right down the center line
+I've found some music in me
+Could've been anywhere
+It came back, that's all I care
+I found some music in me
+I've still got some music in me
+It's right here, can't you see
+I've still got the music in me`,
   },
   "all-i-see": {
     coverImage: "/album-covers/mkos.png",
