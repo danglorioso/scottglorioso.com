@@ -15,6 +15,7 @@ const SongPage: React.FC<SongPageProps> = ({ song }) => {
     title,
     album,
     artist,
+    writtenDate,
     releaseDate,
     copyright,
     streamingLinks,
@@ -60,6 +61,11 @@ const SongPage: React.FC<SongPageProps> = ({ song }) => {
 
           {/* Release Date and Copyright */}
           <div className="mt-6">
+            {writtenDate && (
+              <p className="mt-6 text-sm text-gray-500">
+                Written: {writtenDate}
+              </p>
+            )}
             {releaseDate && (
               <p className="mt-6 text-sm text-gray-500">
                 Written: {releaseDate}

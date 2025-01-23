@@ -24,6 +24,7 @@ export interface Song {
   album: string;
   artist: string;
   audioFile: string;
+  writtenDate: string;
   releaseDate: string;
   copyright: string;
   streamingLinks: StreamingLink[]; // Defined above
