@@ -22,6 +22,7 @@ export interface Song {
   coverImage: string;
   title: string;
   album: string;
+  albumId: string;
   artist: string;
   audioFile: string;
   writtenDate: string;
