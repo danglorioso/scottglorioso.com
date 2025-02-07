@@ -71,7 +71,7 @@ const allAlbumData: Record<string, Album> = {
       id: 'my-kind-of-success',
       title: 'My Kind of Success',
       artist: 'Scott Glorioso',
-      releaseDate: 'January 18, 2025',
+      releaseDate: 'January 16, 2025',
       description: 'An album celebrating personal triumphs.',
       coverImage: '/album-covers/mkos.png',
       tracks: [
@@ -87,7 +87,7 @@ const allAlbumData: Record<string, Album> = {
         { id: "queen-requiem", title: 'Queen Requiem' },
       ],
       streamingLinks: [
-        { name: "Apple Music", url: "", icon: FaApple },
+        { name: "Apple Music", url: "https://music.apple.com/us/album/my-kind-of-success/1794922606", icon: FaApple },
         { name: "Spotify", url: "", icon: FaSpotify },
         { name: "iTunes", url: "", icon: FaItunes },
         { name: "Amazon Music", url: "", icon: FaAmazon },
