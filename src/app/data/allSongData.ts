@@ -1007,7 +1007,7 @@ But not for fools like you`,
     releaseDate: "January 16, 2025",
     copyright: "© 2025 Scott Glorioso",
     streamingLinks: [
-      { name: "Apple Music", url: "", icon: FaApple },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/music-in-me/1794922606?i=1794922607", icon: FaApple },
       { name: "Spotify", url: "", icon: FaSpotify },
       { name: "Amazon Music", url: "", icon: FaAmazon },
       { name: "YouTube Music", url: "", icon: FaYoutube },
@@ -1029,7 +1029,8 @@ No choice of key or tempo
 It just goes
 
 [Verse 2]
-Distractions all around It don’t come easy
+Distractions all around 
+It don’t come easy
 Writers block makes me queasy
 Nothing I can do but just sit down
 Pick up my guitar and go to town
@@ -1037,7 +1038,7 @@ Pick up my guitar and go to town
 [Bridge]
 Oh, how it flows
 Every chord is my own
-From one note to coda
+From one row to the coda
 It just flows
 
 [Chorus]
@@ -1072,7 +1073,7 @@ I’ve still got the music in me
 Got to be clever, quick and catchy
 Can’t be too explicit, better sketchy
 All the best hooks, keeping it simple
-Not too cute, a new record 
+Not too cute, a new wrinkle 
 
 [Bridge]
 As far as pop goes
@@ -1110,7 +1111,7 @@ I've still got the music in me`,
     releaseDate: "January 16, 2025",
     copyright: "© 2025 Scott Glorioso",
     streamingLinks: [
-      { name: "Apple Music", url: "", icon: FaApple },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/all-i-see/1794922606?i=1794922608", icon: FaApple },
       { name: "Spotify", url: "", icon: FaSpotify },
       { name: "Amazon Music", url: "", icon: FaAmazon },
       { name: "YouTube Music", url: "", icon: FaYoutube },
@@ -1153,8 +1154,8 @@ Intentions never meant to go so far
 And all I see 
 Is you and me
 Riding on this flight together
-Fantasy
-Into reality 
+(Not) Fantasy
+Our reality 
 You and me were made to be together
 
 [Bridge]
@@ -1170,7 +1171,7 @@ And all I see
 Is you and me
 Living out our dreams together
 It's destiny
-And totality
+In totality
 You and me were made to be together
 
 [Outro]
@@ -1192,7 +1193,7 @@ You and me were made to be forever`,
     releaseDate: "January 16, 2025",
     copyright: "© 2025 Scott Glorioso",
     streamingLinks: [
-      { name: "Apple Music", url: "", icon: FaApple },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/my-kind-of-success/1794922606?i=1794922759", icon: FaApple },
       { name: "Spotify", url: "", icon: FaSpotify },
       { name: "Amazon Music", url: "", icon: FaAmazon },
       { name: "YouTube Music", url: "", icon: FaYoutube },
@@ -1237,8 +1238,8 @@ Should be the source of prolific creation
 
 [Verse 3]
 Looking back on how I used to write
-It was always based on love unrequited
-It’s hard to (even) remember what that was like
+Was always based on love unrequited
+It’s hard to even remember what that was like
 For what we have now I am delighted
 
 [Chorus]
@@ -1269,7 +1270,7 @@ It’s my kind of success`,
     releaseDate: "January 16, 2025",
     copyright: "© 2025 Scott Glorioso",
     streamingLinks: [
-      { name: "Apple Music", url: "", icon: FaApple },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/sunshine-rising-octavate/1794922606?i=1794922760", icon: FaApple },
       { name: "Spotify", url: "", icon: FaSpotify },
       { name: "Amazon Music", url: "", icon: FaAmazon },
       { name: "YouTube Music", url: "", icon: FaYoutube },
@@ -1295,7 +1296,7 @@ She
 She never fails me, to blow my mind
 
 [Bridge] 
-You can help me turn this train around
+You can help us turn this train around
 
 [Chorus]
 Sunshine rising
@@ -1316,7 +1317,6 @@ Octavate everything you find
 [Bridge] 
 You can help us burn this terror down
 Oh yeah
-
 
 [Chorus]
 Sunshine rising
@@ -1340,7 +1340,7 @@ I am not regretting today`,
     releaseDate: "January 16, 2025",
     copyright: "© 2025 Scott Glorioso",
     streamingLinks: [
-      { name: "Apple Music", url: "", icon: FaApple },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/it-takes-a-lot/1794922606?i=1794922762", icon: FaApple },
       { name: "Spotify", url: "", icon: FaSpotify },
       { name: "Amazon Music", url: "", icon: FaAmazon },
       { name: "YouTube Music", url: "", icon: FaYoutube },
@@ -1353,7 +1353,7 @@ I am not regretting today`,
 Never would I say
 "You've got to stay the same"
 Everything must change
-And go it's own way
+And go its own way
 It's not always pleasant
 Nor predictable
 Sometimes it comes with pain
@@ -1383,8 +1383,8 @@ To give it all you've got
 And it takes a lot
 To stay on top
 Oh, it takes a lot
-So give it your best shot
-And give it all you've got
+So give your best shot
+Give it all you've got
 Aim straight for the top
 
 [Verse 3]
@@ -1412,7 +1412,7 @@ We've been through a lot
 Going straight to the top
 And it takes a lot
 There's no pit stops
-We've driving to the top
+When driving to the top
 And it takes a lot
 
 [Outro]
@@ -1430,7 +1430,7 @@ Never would I say
     releaseDate: "January 16, 2025",
     copyright: "© 2025 Scott Glorioso",
     streamingLinks: [
-      { name: "Apple Music", url: "", icon: FaApple },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/out-on-the-mountain/1794922606?i=1794922763", icon: FaApple },
       { name: "Spotify", url: "", icon: FaSpotify },
       { name: "Amazon Music", url: "", icon: FaAmazon },
       { name: "YouTube Music", url: "", icon: FaYoutube },
@@ -1457,7 +1457,7 @@ Where it's just me I've got to please
 Lately all my dreams have been put on hold
 In fact I can barely recall the way they go
 But it's odd that I don't feel behind
-An unfamiliar piece of mind
+An unfamiliar peace of mind
 And a longing for freshly fallen snow
 
 [Chorus]
@@ -1501,7 +1501,7 @@ Where it's just me I've got to please`,
     releaseDate: "January 16, 2025",
     copyright: "© 2025 Scott Glorioso",
     streamingLinks: [
-      { name: "Apple Music", url: "", icon: FaApple },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/once-in-a-lifetime/1794922606?i=1794922764", icon: FaApple },
       { name: "Spotify", url: "", icon: FaSpotify },
       { name: "Amazon Music", url: "", icon: FaAmazon },
       { name: "YouTube Music", url: "", icon: FaYoutube },
@@ -1577,7 +1577,7 @@ You better go for it all`,
     releaseDate: "January 16, 2025",
     copyright: "© 2025 Scott Glorioso",
     streamingLinks: [
-      { name: "Apple Music", url: "", icon: FaApple },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/no-fun-without-you/1794922606?i=1794922765", icon: FaApple },
       { name: "Spotify", url: "", icon: FaSpotify },
       { name: "Amazon Music", url: "", icon: FaAmazon },
       { name: "YouTube Music", url: "", icon: FaYoutube },
@@ -1590,7 +1590,7 @@ You better go for it all`,
 I could travel all over the world
 See all there is to see	
 Swim in life’s vast oceans
-Be the richest man in the land
+Be the richest man I could be
 
 [Bridge]
 Go where free wind blows
@@ -1632,7 +1632,7 @@ You see me the very same way
 
 [Bridge]
 I live by your side
-In you I ‘ll confide
+In you I‘ll confide
 That it's
 
 [Chorus]
@@ -1658,7 +1658,7 @@ And it's no fun without you`,
     releaseDate: "January 16, 2025",
     copyright: "© 2025 Scott Glorioso",
     streamingLinks: [
-      { name: "Apple Music", url: "", icon: FaApple },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/anothers-way/1794922606?i=1794922766", icon: FaApple },
       { name: "Spotify", url: "", icon: FaSpotify },
       { name: "Amazon Music", url: "", icon: FaAmazon },
       { name: "YouTube Music", url: "", icon: FaYoutube },
@@ -1670,7 +1670,7 @@ And it's no fun without you`,
     lyrics: `[Verse 1]
 When I hear of religious strife
 Nations split and continue to fight
-So many die without even basic rights
+So many die without basic rights
 I wonder what it takes to justify
 
 [Chorus]
@@ -1684,7 +1684,7 @@ Disrespect for the other's way
 [Verse 2]
 Days of peace are lessening
 Children's cries are deafening
-Life on Earth is shuttering
+Life on Earth is shuddering
 I wonder what the future can possibly bring
 
 [Chorus]
@@ -1696,8 +1696,8 @@ Much too quick to criticize
 Another's theory of life
 
 [Break]
-Imagine times in history
-When the world was flat and not moving
+Imagine history
+When the world was flat not moving
 So much we know about everything
 Yet the meaning of life is still a mystery
 
@@ -1724,7 +1724,7 @@ Another's theory of life`,
     releaseDate: "January 16, 2025",
     copyright: "© 2025 Scott Glorioso",
     streamingLinks: [
-      { name: "Apple Music", url: "", icon: FaApple },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/queen-requiem/1794922606?i=1794922767", icon: FaApple },
       { name: "Spotify", url: "", icon: FaSpotify },
       { name: "Amazon Music", url: "", icon: FaAmazon },
       { name: "YouTube Music", url: "", icon: FaYoutube },
@@ -1734,11 +1734,11 @@ Another's theory of life`,
       { role: "Writer & Performer", name: "Scott Glorioso" },
     ],
     lyrics: `[Intro]
-The Queen in dead
+The Queen is dead
 The King of Queen
 The Queen is gone
 The Killer Queen
-Though he's gone, he cannot be forgotten
+And though he's gone, he cannot be forgotten
 
 [Verse 1]
 He started out a big dream kid
@@ -1763,10 +1763,10 @@ The Queen is dead
 The King of Queen
 The Queen is gone
 The Killer Queen
-Though he's gone, he cannot be forgotten
+And though he's gone, he cannot be forgotten
 
 [Break]
-Against the odds of maintain sexuality
+Against the odds of mainstream sexuality
 His voice was heard for peace and decency
 He was larger than life in the land of royalty
 He lived for the show and all its pageantry
