@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { Song } from "../types/song";
 
 // Define the prop type for the SongPage component
@@ -14,6 +15,7 @@ const SongPage: React.FC<SongPageProps> = ({ song }) => {
     coverImage,
     title,
     album,
+    albumId,
     artist,
     writtenDate,
     releaseDate,
@@ -25,6 +27,15 @@ const SongPage: React.FC<SongPageProps> = ({ song }) => {
 
   return (
     <div className="bg-black text-white px-8 py-12 max-w-screen-lg mx-auto">
+      
+      {/* Back to Album Button */}
+      <div className="w-full">
+        <Link href={`/albums/${albumId}`}>
+          <div className="inline-flex items-center text-red-500 hover:text-red-400 text-lg font-semibold transition-all duration-300 ease-in-out cursor-pointer mb-3">
+            <span className="mr-2 text-xl">←</span> Back to Album
+          </div>
+        </Link>
+      </div>
       
       {/* Top Section */}
       <div className="flex flex-col md:flex-row items-center gap-8">
