@@ -26,12 +26,12 @@ const SongPage: React.FC<SongPageProps> = ({ song }) => {
   } = song;
 
   return (
-    <div className="bg-black text-white px-8 py-12 max-w-screen-lg mx-auto">
+    <div className="bg-black text-white py-8 max-w-screen-lg mx-auto">
       
       {/* Back to Album Button */}
       <div className="w-full">
         <Link href={`/albums/${albumId}`}>
-          <div className="inline-flex items-center text-red-500 hover:text-red-400 text-lg font-semibold transition-all duration-300 ease-in-out cursor-pointer mb-3">
+          <div className="inline-flex items-center text-red-500 hover:text-red-400 text-lg font-semibold transition-all duration-300 ease-in-out cursor-pointer mb-4">
             <span className="mr-2 text-xl">←</span> Back to Album
           </div>
         </Link>
