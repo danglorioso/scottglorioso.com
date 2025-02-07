@@ -8,7 +8,7 @@ const allAlbumData: Record<string, Album> = {
         title: 'It\'s All About Me - Single',
         artist: 'Scott Glorioso',
         releaseDate: 'January 17, 2020',
-        description: 'A collection of inspiring tracks.',
+        description: '',
         coverImage: '/album-covers/iaam.png',
         tracks: [
           { id: "its-all-about-me", title: 'It\'s All About Me' },
@@ -26,7 +26,7 @@ const allAlbumData: Record<string, Album> = {
         title: 'Stay United - Single',
         artist: 'Scott Glorioso',
         releaseDate: 'January 6, 2021',
-        description: 'A collection of inspiring tracks.',
+        description: '',
         coverImage: '/album-covers/su.png',
         tracks: [
           { id: "stay-united", title: 'Stay United' },
@@ -44,7 +44,7 @@ const allAlbumData: Record<string, Album> = {
       title: 'For the Glory',
       artist: 'Scott Glorioso',
       releaseDate: 'December 1, 2022',
-      description: 'A collection of inspiring tracks.',
+      description: '',
       coverImage: '/album-covers/ftg.png',
       tracks: [
         { id: "i-am-great", title: 'I Am Great' },
@@ -72,7 +72,7 @@ const allAlbumData: Record<string, Album> = {
       title: 'My Kind of Success',
       artist: 'Scott Glorioso',
       releaseDate: 'January 16, 2025',
-      description: 'An album celebrating personal triumphs.',
+      description: '',
       coverImage: '/album-covers/mkos.png',
       tracks: [
         { id: "music-in-me", title: 'Music in Me' },
