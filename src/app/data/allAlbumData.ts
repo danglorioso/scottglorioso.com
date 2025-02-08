@@ -88,7 +88,7 @@ const allAlbumData: Record<string, Album> = {
       ],
       streamingLinks: [
         { name: "Apple Music", url: "https://music.apple.com/us/album/my-kind-of-success/1794922606", icon: FaApple },
-        { name: "Spotify", url: "", icon: FaSpotify },
+        { name: "Spotify", url: "https://open.spotify.com/album/69T9CkEQudcnqOQqZfhWcc?si=QDxmvOeNRci4cTZXoN_b-A", icon: FaSpotify },
         { name: "iTunes", url: "https://music.apple.com/us/album/my-kind-of-success/1794922606", icon: FaItunes },
         { name: "Amazon Music", url: "https://music.amazon.com/albums/B0DWDYBQ2P?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_aCOMDUeyDzeMygxzrS1sOejRT", icon: FaAmazon },
         { name: "YouTube Music", url: "https://youtube.com/playlist?list=OLAK5uy_ks9d6kIoJe8hU3rgLfrlma9rrYWa3KHic&si=VeWYxfnqktfXwsOU", icon: FaYoutube },
