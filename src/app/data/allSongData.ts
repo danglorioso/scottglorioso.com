@@ -1309,8 +1309,8 @@ You
 You've got the power of love inside
 It's true
 Sometimes it scares you to let it ride
-We're living in the minute,
-in it just to win it.
+We're living in the minute
+In it just to win it
 Do
 Octavate everything you find
  
