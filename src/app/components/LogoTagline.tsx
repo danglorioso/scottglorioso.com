@@ -16,7 +16,7 @@ const LogoTagline = () => {
         className="rounded-lg cursor-pointer"
         priority
       />
-      <p className="font-sans text-red-500 text-base mt-1 cursor-pointer">
+      <p className="font-sans text-red-500 text-base mt-1 cursor-pointer text-center">
         Singer, Songwriter, Sound Engineer, Producer
       </p>
     </div>
