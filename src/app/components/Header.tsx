@@ -64,7 +64,7 @@ const Header = () => {
                   key={item.href}
                   href={item.href}
                   className={`
-                    relative px-4 py-2 rounded-full text-md font-medium transition-all duration-300 ease-in-out
+                    relative px-4 py-2 rounded-full text-md font-medium transition-all duration-300 ease-in-out flex items-center justify-center
                     ${active 
                       ? 'text-red-500 hover:bg-red-600/20 hover:scale-100' 
                       : 'text-gray-300 hover:text-white hover:bg-red-600/20 hover:scale-100'
