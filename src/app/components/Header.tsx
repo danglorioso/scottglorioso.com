@@ -3,6 +3,8 @@ import React from 'react';
 import { usePathname } from 'next/navigation';
 import { FaApple, FaSpotify } from 'react-icons/fa';
 import Link from 'next/link';
+import Image from 'next/image';
+import LogoMobile from '../../../public/logo_mobile.png';
 import LogoTagline from './LogoTagline';
 
 const Header = () => {
@@ -28,7 +30,14 @@ const Header = () => {
     <header className="bg-black rounded-lg mx-auto max-w-screen-xl px-6 py-4 flex items-center justify-between mt-2">
       {/* Logo and Tagline */}
       <div className="mt-4 cursor-pointer">
-        <LogoTagline />
+        {/* Desktop Logo - hidden on mobile */}
+        <div className="hidden md:block">
+          <LogoTagline />
+        </div>
+        {/* Mobile Logo - visible on mobile */}
+        <div className="block md:hidden">
+          <Image src={LogoMobile} alt="Logo" className="w-10 h-10" />
+        </div>
       </div>
 
       {/* Navigation Links */}

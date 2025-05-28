@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Logo from '../../../public/logo.png';
+import Logo from '../../../public/logo_desktop.png';
 import Link from 'next/link';
 
 const LogoTagline = () => {
