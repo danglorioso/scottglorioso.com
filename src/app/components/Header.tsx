@@ -48,7 +48,7 @@ const Header = () => {
         {/* Mobile Logo - visible on mobile */}
         <div className="block md:hidden">
           <Link href="/" passHref>
-            <Image src={LogoMobile} alt="Logo" className="w-3/4 mr-4 pr-10" />
+            <Image src={LogoMobile} alt="Logo" className="w-1/1 mr-4 pr-10" />
           </Link>
         </div>
       </div>
