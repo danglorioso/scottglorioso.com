@@ -40,17 +40,8 @@ const Header = () => {
     <>
     <header className="bg-black rounded-lg mx-auto max-w-screen-xl px-6 py-4 flex items-center justify-between mt-2">
       {/* Logo and Tagline */}
-      <div className="mt-4 cursor-pointer">
-        {/* Desktop Logo - hidden on mobile */}
-        <div className="hidden md:block">
-          <LogoTagline />
-        </div>
-        {/* Mobile Logo - visible on mobile */}
-        <div className="block md:hidden">
-          <Link href="/" passHref>
-            <Image src={LogoMobile} alt="Logo" className="w-1/1 mr-4 pr-10" />
-          </Link>
-        </div>
+      <div className="mt-4 pr-6 sm:pr-0 cursor-pointer">
+        <LogoTagline />
       </div>
 
       {/* Navigation Links */}
