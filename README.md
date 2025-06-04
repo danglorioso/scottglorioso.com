@@ -1,1 +1,1 @@
-Website for musical artist and producer Scott Glorioso.
+Website for musical artist and producer [Scott Glorioso](https://www.scottglorioso.com). Created by [Dan Glorioso](https://danglorioso.com).
