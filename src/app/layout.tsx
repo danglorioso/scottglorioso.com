@@ -15,7 +15,7 @@ const rubik = Rubik({
 
 export const metadata: Metadata = {
   title: "Scott Glorioso - Singer, Songwriter, Sound Engineer, Producer",
-  description: "",
+  description: "Singer, Songwriter, Sound Engineer, Producer",
 };
 
 export default function RootLayout({
