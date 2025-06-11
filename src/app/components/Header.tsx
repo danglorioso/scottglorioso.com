@@ -45,7 +45,7 @@ const Header = () => {
       {/* Navigation Links */}
       <nav className="flex-grow flex justify-center">
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-1 bg-black/50 rounded-full px-3 py-2 backdrop-blur-sm">
+          <div className="hidden md:flex flex-wrap justify-center text-center gap-x-2 gap-y-1 bg-black/50 rounded-full px-3 py-2 backdrop-blur-sm">
             {navItems.map((item) => {
               const active = isActive(item.href);
               return (
