@@ -26,7 +26,7 @@ const SongPage: React.FC<SongPageProps> = ({ song }) => {
   } = song;
 
   return (
-    <div className="bg-black text-white py-8 max-w-screen-lg mx-auto">
+    <div className="bg-black text-white py-8 max-w-screen-lg mx-auto px-8 xl:px-0">
       
       {/* Back to Album Button */}
       <div className="w-full">
