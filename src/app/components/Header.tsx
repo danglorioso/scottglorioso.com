@@ -12,7 +12,7 @@ const Header = () => {
   
   const navItems = [
     { href: '/', label: 'Home' },
-    { href: '/all-songs', label: 'All Songs' },
+    { href: '/songs', label: 'All Songs' },
     { href: '/albums/for-the-glory', label: 'For the Glory' },
     { href: '/albums/my-kind-of-success', label: 'My Kind of Success' },
     { href: '/live', label: 'Live' },
