@@ -16,10 +16,10 @@ const LivePerformanceList: React.FC<LivePerformanceListProps> = ({ performances 
           .map((performance, index) => (
             <div
               key={index}
-              className="flex items-center gap-4 p-4 bg-neutral-900 rounded-xl shadow-lg"
+              className="flex flex-col md:flex-row items-center gap-4 p-4 bg-neutral-900 rounded-xl shadow-lg"
             >
               {/* Text Information Section */}
-              <div className="flex-1 mx-6">
+              <div className="flex-1 mx-6 my-2">
                 <h3 className="text-3xl font-bold text-red-500 mb-3">{performance.title}</h3>
                 <p className="text-lg text-gray-400 mb-4">{performance.description}</p>
                 <p className="text-sm text-neutral-500 mb-4">Performed {performance.performanceDate}.</p>
