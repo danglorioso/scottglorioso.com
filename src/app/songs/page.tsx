@@ -21,7 +21,7 @@ const AllSongs: React.FC = () => {
           .map(([songKey, song]) => (
             <div
               key={songKey} // Use the song key for the key prop
-              className="flex flex-col md:flex-row items-center gap-4 p-4 bg-neutral-900 rounded-xl shadow-lg"
+              className="flex flex-col sm:flex-row items-center gap-4 p-4 bg-neutral-900 rounded-xl shadow-lg"
             >
               {/* Link to Full Song Page via Album Cover */}
               <Link href={`/songs/${songKey}`}>
@@ -35,7 +35,7 @@ const AllSongs: React.FC = () => {
               </Link>
 
               {/* Song Info */}
-              <div className="flex-1 w-full flex flex-col items-center md:items-start text-center md:text-left">
+              <div className="flex-1 w-full flex flex-col items-center sm:items-start text-center sm:text-left">
               <Link href={`/songs/${songKey}`}>
                 <h3 className="text-2xl font-bold">{song.title}</h3>
                 <p className="text-lg text-gray-400">{song.artist}</p>
