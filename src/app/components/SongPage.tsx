@@ -92,14 +92,14 @@ const SongPage: React.FC<SongPageProps> = ({ song }) => {
         <h2 className="text-2xl font-semibold text-red-500 mb-4 text-center">
           Stream On
         </h2>
-        <div className="flex justify-center gap-4 flex-wrap">
+        <div className="flex flex-col sm:flex-row justify-center gap-4">
           {streamingLinks.map((platform) => (
             <a
               key={platform.name}
               href={platform.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-neutral-800 hover:bg-neutral-700 p-4 rounded-lg transition hover:scale-105"
+              className="flex items-center gap-2 bg-neutral-800 hover:bg-neutral-700 p-4 rounded-lg transition hover:scale-105 justify-center"
             >
               <platform.icon className="text-3xl text-red-500" />
               <span className="font-medium">{platform.name}</span>
