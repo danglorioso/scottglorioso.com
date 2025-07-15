@@ -35,6 +35,7 @@ const Header = () => {
   };
 
   return (
+    // React fragments to wrap JSX elements
     <>
     <header className="bg-black rounded-lg mx-auto max-w-screen-xl px-6 py-4 flex items-center justify-between mt-2">
       {/* Logo and Tagline */}

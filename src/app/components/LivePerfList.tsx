@@ -1,4 +1,3 @@
-// components/LivePerformanceList.tsx
 import React from 'react';
 import { LivePerformance } from '../types/livePerf';
 

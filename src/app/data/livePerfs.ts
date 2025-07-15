@@ -1,4 +1,3 @@
-// data/livePerformances.ts
 import { LivePerformance } from '../types/livePerf';
 
 const livePerformances: LivePerformance[] = [
