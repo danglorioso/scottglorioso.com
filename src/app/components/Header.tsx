@@ -6,7 +6,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import LogoTagline from './LogoTagline';
 
-const Header = () => {
+export default function Header() {
   const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   
@@ -155,4 +155,3 @@ const Header = () => {
   );
 };
 
-export default Header;

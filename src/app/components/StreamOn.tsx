@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaApple, FaSpotify, FaAmazon, FaYoutube } from 'react-icons/fa';
 
-const StreamingLinks = () => {
+export default function StreamingLinks() {
   const platforms = [
     {
       name: 'Apple Music',
@@ -44,5 +44,3 @@ const StreamingLinks = () => {
     </section>
   );
 };
-
-export default StreamingLinks;

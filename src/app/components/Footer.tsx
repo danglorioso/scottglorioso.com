@@ -2,7 +2,7 @@
 
 import React from 'react'
 
-const Footer = () => {
+export default function Footer() {
   return (
     <footer className="text-neutral-400 text-center p-4 w-full bg-neutral-900 border-t border-neutral-800">
       <p className="mb-2 leading-tight">
@@ -24,4 +24,3 @@ const Footer = () => {
   );
 };
 
-export default Footer;

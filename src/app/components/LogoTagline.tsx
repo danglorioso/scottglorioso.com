@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Logo from '../../../public/logo_desktop.png';
 import Link from 'next/link';
 
-const LogoTagline = () => {
+export default function LogoTagline() {
   return (
     <Link href="/" passHref>
 
@@ -23,5 +23,3 @@ const LogoTagline = () => {
     </Link>
   );
 };
-
-export default LogoTagline;

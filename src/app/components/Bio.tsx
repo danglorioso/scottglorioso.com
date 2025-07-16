@@ -4,7 +4,7 @@ import Profile from '../../../public/images/profile.png';
 // import Link from 'next/link';
 import StreamOn from './StreamOn';
 
-const Bio = () => {
+export default function Bio() {
   return (
     <section className="flex flex-col md:flex-row items-center bg-neutral-900 outline outline-neutral-800 p-10 mt-14 rounded-xl shadow-lg max-w-screen-xl mx-auto">
         {/* Image Section */}
@@ -35,5 +35,3 @@ const Bio = () => {
     </section>
   );
 };
-
-export default Bio;
