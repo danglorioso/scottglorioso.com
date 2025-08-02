@@ -41,7 +41,7 @@ const AlbumPage: React.FC<AlbumPageProps> = ({ album }) => {
         </div>
 
         {/* Album Details */}
-        <div className="flex-1">
+        <div className="flex-1 w-full">
           <h1 className="text-5xl font-bold text-red-500 mb-3">{album.title}</h1>
           <h2 className="text-2xl font-semibold mb-6">{album.artist}</h2>
           <p className="text-lg text-gray-400 mb-8">{album.description}</p>
