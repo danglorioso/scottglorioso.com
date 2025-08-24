@@ -5,22 +5,22 @@ export default function StreamingLinks() {
   const platforms = [
     {
       name: 'Apple Music',
-      url: 'https://music.apple.com/us/artist/scott-glorioso/1637244084',
+      url: '/apple-music',
       icon: <FaApple />,
     },
     {
       name: 'Spotify',
-      url: 'https://open.spotify.com/artist/2r4EbUh8eNVrjHb4KAS5rp?si=yvBkF0F4SuymbAPO4VSClw',
+      url: '/spotify',
       icon: <FaSpotify />,
     },
     {
       name: 'Amazon Music',
-      url: 'https://music.amazon.com/artists/B0B4B279BW/scott-glorioso',
+      url: '/amazon-music',
       icon: <FaAmazon />,
     },
     {
       name: 'YouTube Music',
-      url: 'https://music.youtube.com/channel/UCkqGZJSTGraAMd_mRRWKS_w',
+      url: '/youtube-music',
       icon: <FaYoutube />,
     },
   ];

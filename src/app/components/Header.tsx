@@ -70,10 +70,10 @@ export default function Header() {
 
       {/* Desktop Icons */}
       <div className="flex items-center space-x-4">
-        <a href="https://music.apple.com/us/artist/scott-glorioso/1637244084" target="_blank" className="text-white hover:text-gray-400 hover:scale-110 text-3xl duration-300 mr-1">
+        <a href="/apple-music" target="_blank" className="text-white hover:text-gray-400 hover:scale-110 text-3xl duration-300 mr-1">
           <FaApple />
         </a>
-        <a href="https://open.spotify.com/artist/2r4EbUh8eNVrjHb4KAS5rp?si=yvBkF0F4SuymbAPO4VSClw" target="_blank" className="text-white hover:text-gray-400 hover:scale-110 duration-300 text-3xl">
+        <a href="/spotify" target="_blank" className="text-white hover:text-gray-400 hover:scale-110 duration-300 text-3xl">
           <FaSpotify />
         </a>
       </div>
@@ -134,14 +134,14 @@ export default function Header() {
           {/* Social Icons in Mobile Menu */}
           <div className="absolute bottom-8 left-4 flex space-x-4">
             <a 
-              href="https://music.apple.com/us/artist/scott-glorioso/1637244084" 
+              href="/apple-music" 
               target="_blank" 
               className="text-white hover:text-red-500 text-2xl transition-colors duration-300"
             >
               <FaApple />
             </a>
             <a 
-              href="https://open.spotify.com/artist/2r4EbUh8eNVrjHb4KAS5rp?si=yvBkF0F4SuymbAPO4VSClw" 
+              href="/spotify" 
               target="_blank" 
               className="text-white hover:text-red-500 text-2xl transition-colors duration-300"
             >
