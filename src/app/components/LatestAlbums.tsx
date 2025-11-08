@@ -12,7 +12,7 @@ const LatestAlbums: React.FC = () => {
 
   return (
     <section className="bg-neutral-900 outline outline-neutral-800 p-10 mt-14 mb-14 rounded-xl shadow-lg max-w-screen-xl mx-auto">
-      <h2 className="text-4xl font-bold text-red-500 mb-6 text-center">Latest Albums</h2>
+      <h2 className="text-4xl font-bold text-red-500 mb-10 text-center">Latest Albums</h2>
       <div className="flex flex-col justify-center md:flex-row gap-8">
         {albums.map((album: Album) => (
           <Link href={`/albums/${album.id}`} key={album.id}>
