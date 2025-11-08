@@ -22,7 +22,7 @@ export default function Bio() {
         <div className="w-full md:w-2/3 md:pl-8 flex flex-col">
             <h2 className="text-5xl font-bold text-red-500 mb-4">Scott Glorioso</h2>
             <p className="text-gray-400 mb-6 leading-relaxed">
-                Scott Glorioso is a lifelong music enthusiast with a passion for crafting catchy, well-produced rock and pop. An accomplished songwriter, producer, recording engineer, and artist, Scott has built an impressive catalog of over 150 original tracks—written, recorded, and produced in his personal studio. His sound blends sharp production with melodic hooks, reflecting a deep love for music that resonates. Beyond his own work, Scott also collaborates with other artists, offering recording and production services for a variety of projects across the local music scene.
+                Scott Glorioso is a lifelong music enthusiast with a passion for crafting catchy, well-produced rock and pop. An accomplished songwriter, producer, recording engineer, and artist, Scott has built a catalog of over 150 original tracks written, recorded, and produced in his personal studio. He prides himself on blending sharp production with melodic hooks, a pairing that reflects a deep love for music. Beyond his own work, Scott also collaborates with other artists, offering recording and production services for a variety of projects across the local music scene.
             </p>
             {/* <a
                 href="#"
