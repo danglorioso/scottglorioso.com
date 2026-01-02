@@ -1,6 +1,7 @@
 import { LivePerformance } from '../types/livePerf';
 
 export const livePerformances: LivePerformance[] = [
+  // Note: Add new performances to bottom of list. List renders in reverse order.
     {
     title: "Creep - Power Surge",
     description: "Radiohead cover performed live at The Billards Cafe in Ayer, MA.",
