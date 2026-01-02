@@ -1,6 +1,30 @@
 import { LivePerformance } from '../types/livePerf';
 
 export const livePerformances: LivePerformance[] = [
+    {
+    title: "Creep - Power Surge",
+    description: "Radiohead cover performed live at The Billards Cafe in Ayer, MA.",
+    performanceDate: "Sept. 21, 2019",
+    youtubeLink: "https://www.youtube.com/watch?v=ZW8XTeCX9zU"
+  },
+  {
+    title: "Hey Jealousy - Power Surge",
+    description: "Cover of Gin Blossoms' hit \"Hey Jealousy,\" performed on the lawn at Faye Park for the Littleton Road Race.",
+    performanceDate: "Sept. 22, 2019",
+    youtubeLink: "https://www.youtube.com/watch?v=xRTrQJk_GXA"
+  },
+  {
+    title: "I've Done Everything For You - Power Surge",
+    description: "Performed at Family BBQ Night On The Farm at SpringDell Farm in Littleton, MA.",
+    performanceDate: "Aug. 26, 2021",
+    youtubeLink: "https://www.youtube.com/watch?v=Ul52af2lk3Q"
+  },
+  {
+    title: "Behind The Wall of Sleep - Power Surge",
+    description: "Live performance of The Smithereens' \"Behind The Wall of Sleep,\" performed at The Billards Cafe in Ayer, MA.",
+    performanceDate: "Sept. 21, 2019",
+    youtubeLink: "https://www.youtube.com/watch?v=2HgZ0OHHZYI"
+  },
   {
     title: "Open Mic Night at FPC",
     description: "Open mic night at First Parish Church (Stow, MA). Scott and Tom performing together for the first time. Scott's original \"Up Side\" and The Monkees'/Smash Mouth's/Neil Diamond's crowd-favorite \"I'm a Believer.\"",
@@ -43,30 +67,6 @@ export const livePerformances: LivePerformance[] = [
     performanceDate: "May 29, 2024",
     youtubeLink: "https://www.youtube.com/embed/zMljoBj38F8?si=4yU-qPsbvz543jMT",
   },
-  {
-    title: "Behind The Wall of Sleep - Power Surge",
-    description: "Live performance of The Smithereens' \"Behind The Wall of Sleep,\" performed at The Billards Cafe in Ayer, MA.",
-    performanceDate: "Sept. 21, 2019",
-    youtubeLink: "https://www.youtube.com/watch?v=2HgZ0OHHZYI"
-  },
-  {
-    title: "I've Done Everything For You - Power Surge",
-    description: "Performed at Family BBQ Night On The Farm at SpringDell Farm in Littleton, MA.",
-    performanceDate: "Aug. 26, 2021",
-    youtubeLink: "https://www.youtube.com/watch?v=Ul52af2lk3Q"
-  },
-  {
-    title: "Hey Jealousy - Power Surge",
-    description: "Cover of Gin Blossoms' hit \"Hey Jealousy,\" performed on the lawn at Faye Park for the Littleton Road Race.",
-    performanceDate: "Sept. 22, 2019",
-    youtubeLink: "https://www.youtube.com/watch?v=xRTrQJk_GXA"
-  },
-  {
-    title: "Creep - Power Surge",
-    description: "Radiohead cover performed live at The Billards Cafe in Ayer, MA.",
-    performanceDate: "Sept. 21, 2019",
-    youtubeLink: "https://www.youtube.com/watch?v=ZW8XTeCX9zU"
-  }
 ];
 
 export default livePerformances;
