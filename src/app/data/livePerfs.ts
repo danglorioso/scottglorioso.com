@@ -6,25 +6,25 @@ export const livePerformances: LivePerformance[] = [
     title: "Creep - Power Surge",
     description: "Radiohead cover performed live at The Billards Cafe in Ayer, MA.",
     performanceDate: "Sept. 21, 2019",
-    youtubeLink: "https://www.youtube.com/watch?v=ZW8XTeCX9zU"
+    youtubeLink: "https://www.youtube.com/embed/ZW8XTeCX9zU?si=f8sWwR5Ebg9k32XX"
   },
   {
     title: "Hey Jealousy - Power Surge",
     description: "Cover of Gin Blossoms' hit \"Hey Jealousy,\" performed on the lawn at Faye Park for the Littleton Road Race.",
     performanceDate: "Sept. 22, 2019",
-    youtubeLink: "https://www.youtube.com/watch?v=xRTrQJk_GXA"
+    youtubeLink: "https://www.youtube.com/embed/xRTrQJk_GXA?si=6vuxgypBp8klww3b"
   },
   {
     title: "I've Done Everything For You - Power Surge",
     description: "Performed at Family BBQ Night On The Farm at SpringDell Farm in Littleton, MA.",
     performanceDate: "Aug. 26, 2021",
-    youtubeLink: "https://www.youtube.com/watch?v=Ul52af2lk3Q"
+    youtubeLink: "https://www.youtube.com/embed/Ul52af2lk3Q?si=c8TYpBvt7dBwSeAf"
   },
   {
     title: "Behind The Wall of Sleep - Power Surge",
     description: "Live performance of The Smithereens' \"Behind The Wall of Sleep,\" performed at The Billards Cafe in Ayer, MA.",
     performanceDate: "Sept. 21, 2019",
-    youtubeLink: "https://www.youtube.com/watch?v=2HgZ0OHHZYI"
+    youtubeLink: "https://www.youtube.com/embed/2HgZ0OHHZYI?si=zds5higtsWaoY7ap"
   },
   {
     title: "Open Mic Night at FPC",
