@@ -2,7 +2,7 @@ import { LivePerformance } from '../types/livePerf';
 
 export const livePerformances: LivePerformance[] = [
   // Note: Add new performances to bottom of list. List renders in reverse order.
-    {
+  {
     title: "Creep - Power Surge",
     description: "Radiohead cover performed live at The Billards Cafe in Ayer, MA.",
     performanceDate: "Sept. 21, 2019",
@@ -67,6 +67,12 @@ export const livePerformances: LivePerformance[] = [
     description: "Lead vocals on The Beatles' classic \"I Saw Her Standing There\" and \"Bad, Bad Leroy Brown\" by Jim Croce.",
     performanceDate: "May 29, 2024",
     youtubeLink: "https://www.youtube.com/embed/zMljoBj38F8?si=4yU-qPsbvz543jMT",
+  },
+  {
+    title: "Open Mic Night at Silver Girl",
+    description: "Performing \"Behind the Wall of Sleep,\" \"Blood and Roses,\" and \"Let's Go\" with Claude von Roesgen on harmonica.",
+    performanceDate: "Mar. 6, 2026",
+    youtubeLink: "https://www.youtube.com/embed/E1bZM2YPPFk?si=GR-O9jz7uIVVJ8Ft"
   },
 ];
 
